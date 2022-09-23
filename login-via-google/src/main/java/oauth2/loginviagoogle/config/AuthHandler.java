@@ -26,7 +26,7 @@ public class AuthHandler implements AuthenticationSuccessHandler {
     public AuthHandler(GeneralService generalService) {
         this.generalService = generalService;
     }
-
+//ART
     @Override
     public void onAuthenticationSuccess(HttpServletRequest httpServletRequest,
                                         HttpServletResponse httpServletResponse,
